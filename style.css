@@ -14,7 +14,10 @@ html,p,img
 
 }
 
-body{background-color: rgb(206, 206, 206);}
+body{
+    background-color: rgb(206, 206, 206);
+    
+}
 
 
 #foto {
@@ -38,42 +41,27 @@ header {
     justify-content: center;
     align-items: center;
     font-size: auto;
-    min-width: 370px;
-  height: 130px;
-  transition-duration: 900ms;
+    width: 100vw;
   
-
+  transition-duration: 900ms;
 }
-
-header:hover{
-    height: 250px;
-    transition-duration: 900ms;
-
-    
-}
-
 
 #subheader {
 
-
+background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-
 }
 
 #infor {
     max-width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: auto;
-
+    display: block;
 }
 
 #title-exp{
+    
     text-align: center;
 }
 section, #formacao{
@@ -99,8 +87,8 @@ section, #formacao{
 }
 
 #fotoprojetos{
-    max-height: 40vh;
-    max-width: 500px;
+    max-height: 380px;
+    max-width: 380px;
     border-radius: 10px;
 }
 
@@ -117,7 +105,8 @@ section, #formacao{
     margin: 10px;
     
     background-color: aliceblue;
-    height: 45vh;
+    max-width: 400px;
+    height: 300px;
 
 }
 
